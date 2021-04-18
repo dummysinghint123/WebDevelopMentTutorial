@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, Width, borders and Background</title>
+    <style>
+        #firstPara{
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border-width: 4px;
+            border-color:black;
+            border-style: solid;
+            border-radius: 11px;
+        }
+        #diffborder{
+            background-color: green;
+            height: 100px;
+            width: 455px;
+            border-top: 10px solid grey;
+            border-bottom: 10px solid greenyellow;
+            border-left: 5px solid blue;
+            border-right: 5px solid black;
+        }
+        #thirdPara{
+            height: 500px;
+            width:455px;
+            background-image: url('https://images.unsplash.com/photo-1578496481449-cf2e845cc00c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            border:2px solid red;
+            color:lightgreen;
+            background-repeat: no-repeat;
+            background-position: center center;
+            /*Other exampless
+              background-position: 50px top;
+
+            */
+        }
+
+    </style>
+</head>
+<body>
+    <h4>This is heading</h4>
+    <p id='firstPara'>THis is my paragraph</p>
+    <p id='diffborder'>This has differenct border in all sides</p>
+    <p id='thirdPara'>This is the third paragraph</p>
+    <div>
+        <h5>Properties of border</h5>
+        <ul>
+            <li><strong>Border-width, To set the width of the border, </strong>Ex: border-width:15px</li>
+            <li><strong>border-radius, To set the corners of the border rounded, </strong>, ex:border-radius:11px</li>
+            <li><strong>border-style, to set the style of border, solid, dashed etc</strong>, Ex border-style:solid</li>
+            <li><strong>border-color, to set the color of the border, ex </strong>border-color:red;  to make the border of red color
+            <li><strong>in one line, border: width style color</strong></li>
+            <li><strong>we can have specific border border-top, border-left, border-bottom</strong>, border</li>
+            <li><strong>we can have indiviual side properties for border also, </strong>Ex border=bottom-right-radius: 15px</li>
+            <li><strong>WE can have background image as well and set properties to that</strong></li>
+        </li>
+        </ul>
+    </div>
+</body>
+</html>

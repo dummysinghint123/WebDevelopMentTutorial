@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /*this is a comment in css*/
+        p{
+            color: red;
+        }
+        .green-element{
+            color: green;
+        }
+        #red-element-id{
+            color: black;
+        }
+        footer, span{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p>This is a simple paragraph Selector the color is red because of simple tag selector</p>
+    <p id="red-element-id">This is a simple paragraph and color is black because of the ID selector</p>
+    <div>
+        <p>This is a simple paragtraph Selector  the color is red because of simple tag selector</p>
+        <p class="green-element">This paragraph is green because of class selector</p>
+        <span>This is a span inside the Div background is pink because of the grouping selector</span>
+    </div>
+    
+    <p class="green-element">This paragraph is green because of class selector</p>
+
+    /* this is the way to add comments in css, whatever goesn inside this is a comment in css file*/
+    <footer>
+        This is footer background is pink because of the grouping selector
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/H/ ShortCuts:
+ctrl+enter -> to go to a new line in VSCode
+ctrl+s     -> to save
+lorem23 -> for 23 words dummy text
+
+/s/ Introduction to CSS
+Css Gives style to raw html 
+CSS stands for CAScading Style sheets
+it is used to give style to our web pages
+CSS is used to make websites responsive
+HTML is used to structure a website
+CSS takes responsibilty od design
+
+/s/ CSS Syntax
+    <SELECTOR>{<PROPERTY>:<VALUE>;}
+    exampe p{color:blue;}
+    selecting ID : #ID 
+    selecting class: #class
+    example:
+    Using multiple selector
+    header,p.intro{
+        property:value
+    }
+
+/S/ 3 WASY TO ADD css:
+    INLINE, Internal/inside head tags, External CSS seperate file
+
+/S/ Selectors in CSS
+    It is used to find the element whose property will be set.
+    selectors are used to target the html element
+    4 types of selectors
+        CSS- element selector
+        CSS-ID Selectors
+        CSS-Class selector
+        CSS-Grouping selector
